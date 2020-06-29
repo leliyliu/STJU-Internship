@@ -120,7 +120,7 @@ class OneHot(Cell):
         return self.onehot(indices, self.depth, self.on_value, self.off_value)
 ```
 
-对于所有类，都要首先继承Cell，这是一定要记得的。下面主要对于这些参数进行相应的说明：
+对于所有类，都要首先继承Cell，这是一定要记得（静态图）的。下面主要对于这些参数进行相应的说明：
 
 ```
 indices : 需要进行one-hot 编码的原内容
